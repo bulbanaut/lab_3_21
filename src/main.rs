@@ -1,7 +1,6 @@
 use std::io::stdin;
 
 fn main() {
-    println!("Hello, world!");
     let input = read_var() as u8;
     let mut mass = read_var();
     match input {
